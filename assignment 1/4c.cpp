@@ -21,8 +21,8 @@ int main(){
     }
 
     cout<<"Transpose of the matrix: "<<endl;
-    for (int i = 0; i < c; i++) {
-        for (int j = 0; j < r; j++) {
+    for (int i = 0; i < r; i++) {
+        for (int j = 0; j < c; j++) {
             cout << transpose[i][j] << " ";
         }
         cout << endl;
